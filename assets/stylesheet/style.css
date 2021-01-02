@@ -40,14 +40,13 @@ footer .details{
   margin-bottom: 1rem;
 }
 
-img.wide-group-image{
-  max-width: 100%;
-  max-height: 600px;
+.wide-group-image{
+  width: 100%;
   display: block;
   margin-top: 3.5rem;
 }
 
-img.wide-group-image, footer{
+.wide-group-image, footer{
   margin-left: auto;
   margin-right: auto;
 }
@@ -77,11 +76,11 @@ footer p{
 }
 
 @media screen and (min-width: 600px) {
-  img.wide-group-image{
-    max-width: 600px;
+  .wide-group-image{
+    max-width: 800px;
   }
 
-  img.wide-group-image, footer{
+  .wide-group-image, footer{
     margin-top: 4rem;
   }
 
